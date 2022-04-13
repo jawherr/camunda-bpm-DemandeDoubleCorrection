@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "camunda-external-task-client-js": "^2.2.0"
+  }
+}

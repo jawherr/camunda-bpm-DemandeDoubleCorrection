@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "L'enseignant approuver la demande",
+      "type": "textfield",
+      "id": "Field_1o7f5xf",
+      "key": "helpNote",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Nom Complet",
+      "type": "textfield",
+      "id": "Field_0lp4lw3",
+      "key": "nomComplet",
+      "redonly" : true,
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Demande a",
+      "type": "textfield",
+      "id": "Field_0el12dc",
+      "key": "envoyer",
+      "validate": {
+        "required": true,
+        "regularExpressionPattern": "Enseignant|Agent"
+      }
+    },
+    {
+      "label": "Addresse",
+      "type": "textfield",
+      "id": "Field_17a6o04",
+      "key": "field_0fm0d7z",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "numeroTel",
+      "type": "textfield",
+      "id": "Field_1m037v7",
+      "key": "field_0pwp3g4",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Objet",
+      "type": "textfield",
+      "id": "Field_15qymxj",
+      "key": "objet",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Description",
+      "type": "textfield",
+      "id": "Field_1p1l7o6",
+      "key": "field_1h4dk9u",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0sh2mxp"
+}
